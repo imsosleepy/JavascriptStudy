@@ -1,0 +1,59 @@
+body {
+  padding-top: 50px;
+  padding-left: 50px;
+  background: black;
+  color: white;
+  font-size: 20pt;
+  font-family: sans-serif;
+}
+
+table {
+  width: 500px;
+  height: 300px;
+  cursor: pointer;
+  border: transparent;
+  border-spacing: 7px;
+}
+
+td {
+  height: 80px;
+	width: 80px;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #2F4F4F;
+}
+
+td:active{
+  background-color: #696969;
+}
+
+input {
+  border-radius: 15px;
+  width: 90%;
+  height: 100%;
+  font-size: 20pt;
+  text-align: right;
+  border: none;
+  background-color: #2F4F4F;
+  border-color: #2F4F4F;
+  color: white;
+}
+
+.selected {
+  background-color: yellow;
+}
+
+.clear {
+  background-color: gray;
+}
+
+.plus, .minus, .multiply, .divide {
+  background-color: #FF7F50;
+}
+
+input:focus {
+  outline: none;
+}
+
+
+/*# sourceMappingURL=/src.a2b27638.css.map */

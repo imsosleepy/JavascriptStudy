@@ -1,0 +1,8 @@
+body {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+input[type="range"] {
+  width:400px;
+}

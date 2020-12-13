@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Random Number Game</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <h1>Random Number Game</h1>
+    <h2 class="generateNum">Generate a number between 0 and 130</h2>
+    <h3>Guess the number:</h3>
+    <form class="js-rangeForm">   
+      <input type="range" class="rangeInput" name="vol" min="0" max="140">
+      <input type="text" class="textInput" size="5">
+      <button type="button" class ="playBtn">Play!</button>
+    </form>
+    <!--form 안에 버튼을 두고 사용하면 강제로 action이 수행됨... 페이지가 갱신된다. 
+    변수들이 갱신되서 innertext도 전부 초기화되서 원하는값을 얻을 수 없었음-->
+    <!-- <button class ="playBtn">Play!</button> -->
+    <h3 class="choseText"></h3>
+    <h3 class="result"></h3>
+    <script src="index.js"></script>
+    
+  </body>
+</html>
